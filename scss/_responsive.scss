@@ -1,0 +1,1109 @@
+@include media-xsmd {
+  #logo {
+    width: 2.7rem !important;
+  }
+  .tablink {
+    font-size: 1.6rem !important;
+  }
+  #headingTitle {
+    padding: 100px 0px 0px 0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: none;
+  }
+  #subTitle {
+    span.l2 {
+      &:nth-child(22) {
+        padding: 0px 3px 0px 0px !important;
+      }
+    }
+  }
+  .tabTitleCont {
+    .l2 {
+      &:nth-child(2) {
+        padding-right: 0.2rem !important;
+      }
+    }
+  }
+  .tabTitleCont2 {
+    .l2 {
+      &:nth-child(6) {
+        padding-right: 0.2rem !important;
+      }
+    }
+  }
+  .headerContent {
+    width: 97vw;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .mob-next-line-letters {
+    display: block !important;
+  }
+  .l1 {
+    font-family: $h1Font !important;
+    font-size: $h1size-mobile !important;
+  }
+  .l2 {
+    padding: 0rem !important;
+    font-family: $h2Font !important;
+    font-size: $h2size-mobile !important;
+  }
+  ul.canvas {
+    width: 100%;
+    height: 100%;
+    animation: glow1 8s ease-in-out infinite alternate !important;
+
+    li.comb {
+      text-decoration: none;
+      width: 60vw;
+      height: 35vh;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(219, 179, 1);
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+      &:hover {
+        background-color: rgb(248, 211, 0);
+        cursor: default;
+      }
+      &:nth-of-type(1n) {
+        top: 62vh;
+        left: 7vw;
+      }
+      &:nth-of-type(2n) {
+        top: 7.5vh;
+        left: 8vw;
+      }
+      &:nth-of-type(3n) {
+        top: 35vh;
+        left: 38vw;
+      }
+    }
+  }
+  .combTitle {
+    font-size: 4vh;
+    margin: 4vh 0rem 0rem 0rem;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: "Abel";
+    font-weight: 900;
+  }
+  .combDes {
+    font-family: "Lexend", sans-serif !important;
+    text-align: center;
+    padding: 0em 0.2rem;
+    margin: 0;
+    font-size: 2vh;
+    font-weight: 600;
+    color: black;
+  }
+  .tabDes {
+    font-size: 2.5vh !important;
+    padding: 0rem 1rem !important;
+    margin: 1rem 0rem !important;
+  }
+  .skillTitle {
+    margin: 0rem 0rem 0rem 0rem !important;
+    font-size: 36px;
+
+    h5 {
+      font-size: 25px;
+      line-height: 1.5rem;
+      padding: 4rem 3.6rem 0rem 0rem;
+      font-family: $font1;
+    }
+  }
+  .slide1 {
+    padding: 0 !important;
+
+    .skillDescription {
+      padding: 0px 0px 0px 0px;
+      margin: 0.5rem 0rem 0rem 0.7rem !important;
+      font-size: 2.4vh;
+      width: 15ch !important;
+      position: absolute;
+      left: 0px;
+      line-height: 1.4rem;
+    }
+
+    &:nth-child(1) {
+      .skillTitle {
+        h5 {
+          padding: 1rem 0rem 0rem 0rem;
+          margin: 2.3rem 0rem 0rem 0rem !important;
+          text-align: left;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+    &:nth-child(2) {
+      .skillTitle {
+        h5 {
+          margin: 0.5rem 0rem 0rem 0.5rem !important;
+          padding: 3rem 0rem 0rem 0rem !important;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+    &:nth-child(3) {
+      .skillTitle {
+        h5 {
+          margin: 0.5rem 0rem 0rem 0.5rem !important;
+          padding: 3rem 0rem 0rem 0rem !important;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+  }
+  .slider {
+    margin: 0px 0px 10px 0px;
+
+    div {
+      width: 100%;
+    }
+  }
+  .prev {
+    &:hover {
+      i {
+        &::after {
+          content: "";
+        }
+      }
+    }
+  }
+  .next {
+    &:hover {
+      &::before {
+        content: "";
+      }
+    }
+  }
+  .skillTech {
+    font-size: 2vh;
+    font-weight: 600;
+    margin: 0rem;
+    padding: 0rem 2rem;
+  }
+  .skillBar {
+    font-size: 0.5rem !important;
+  }
+  .skillBarRow {
+    margin: 0px auto;
+
+    span {
+      font-size: 2.4vh;
+    }
+  }
+  #skillBarContainer {
+    padding: 0rem 0.5rem 0rem 0rem;
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #skillBarContainer2 {
+    padding: 0rem 0.5rem 0rem 0rem;
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #skillBarContainer3 {
+    padding: 0rem 0.5rem 0rem 0rem;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #portfolio {
+    overflow-y: auto;
+  }
+  #portfolio-grid {
+    width: 100%;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 40fr));
+    grid-auto-rows: auto auto;
+  }
+  div.portGridItem {
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 15rem;
+
+    &:hover {
+      border-radius: 10px;
+      // border: 2px groove white;
+      box-shadow: 6px 6px 22px rgb(29, 29, 29); /* rgb(70, 70, 70) */
+    }
+  }
+  .titleOverlay {
+    font-size: $gridTitleSize-xs;
+  }
+  .gridOverlay {
+    opacity: 1;
+    background-color: rgba(42, 42, 42, 0.815);
+
+    p {
+      font-size: $gridTextSizexs;
+    }
+  }
+}
+@include media-smd {
+  #logo {
+    padding: 0px 2px;
+    font-size: 2.05rem !important;
+  }
+  .socialItem {
+    font-size: 4vh !important;
+  }
+  .tablink {
+    font-size: 1.6rem !important;
+  }
+  #headingTitle {
+    padding: 50px 0px 0px 0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: none;
+  }
+  #subTitle {
+    margin: 0px auto;
+
+    span.l2 {
+      &:nth-child(22) {
+        padding: 0px 3px 0px 0px !important;
+      }
+    }
+  }
+  .tabTitleCont {
+    .l2 {
+      &:nth-child(2) {
+        padding-right: 1rem !important;
+      }
+    }
+  }
+  .tabTitleCont2 {
+    .l2 {
+      &:nth-child(6) {
+        padding-right: 1rem !important;
+      }
+    }
+  }
+  .headerContent {
+    width: 97vw;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .mob-next-line-letters {
+    display: block !important;
+  }
+  .l1 {
+    font-family: $h1Font !important;
+    font-size: $h1size-tablet !important;
+  }
+  .l2 {
+    padding: 0rem !important;
+    font-family: $h2Font !important;
+    font-size: $h2size-m-l-mobile !important;
+  }
+  ul.canvas {
+    width: 100%;
+    height: 100%;
+    /* margin: 100px; */
+    animation: glow1 8s ease-in-out infinite alternate !important;
+
+    li.comb {
+      text-decoration: none;
+      width: 60vw;
+      height: 35vh;
+      position: absolute;
+      display: flex;
+      /* justify-content: center; */
+      flex-direction: column;
+      /* margin-bottom: 165px;
+            margin-top: 30px; */
+      background-color: rgb(219, 179, 1);
+      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+      &:hover {
+        background-color: rgb(248, 211, 0);
+        cursor: default;
+      }
+      &:nth-of-type(1n) {
+        top: 62vh;
+        left: 7vw;
+      }
+      &:nth-of-type(2n) {
+        top: 7.5vh;
+        left: 8vw;
+      }
+      &:nth-of-type(3n) {
+        top: 35vh;
+        left: 38vw;
+      }
+    }
+  }
+  .combTitle {
+    font-size: 5vh;
+    margin: 1.6rem 0rem 0rem 0rem;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: "Abel";
+    font-weight: 900;
+  }
+  .combDes {
+    font-family: "Lexend", sans-serif !important;
+    text-align: center;
+    padding: 0em 0.2rem;
+    margin: 0;
+    font-size: 2vh;
+    font-weight: 600;
+    color: black;
+  }
+  .tabDes {
+    font-size: 2.5vh !important;
+    padding: 0rem 1rem !important;
+    margin: 1rem 0rem !important;
+  }
+  .skillTitle {
+    margin: 0rem 0rem 0rem 0rem !important;
+    font-size: 36px;
+
+    h5 {
+      font-size: 6vw;
+      line-height: 1.5rem;
+      padding: 4rem 0rem 0rem 0rem;
+      font-family: $font1;
+    }
+  }
+  .slide1 {
+    padding: 0 !important;
+
+    .skillDescription {
+      padding: 0px 0px 0px 0px;
+      margin: 0.5rem 0rem 0rem 10vw !important;
+      font-size: 2.4vh;
+      width: 39vw !important;
+      position: absolute;
+      left: 0px;
+      line-height: 1.8rem;
+    }
+
+    &:nth-child(1) {
+      .skillTitle {
+        // i {
+        //   margin: 1.3rem 0rem 1rem 5rem;
+        // }
+        h5 {
+          padding: 4rem 0rem 0rem 0rem;
+          text-align: left;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+    &:nth-child(2) {
+      .skillTitle {
+        // i {
+        //   margin: 2rem 0rem 0rem 20vw;
+        // }
+        h5 {
+          margin: -0.5rem 0rem 0rem 0rem !important;
+          // text-align: left;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+    &:nth-child(3) {
+      .skillTitle {
+        // i {
+        //   margin: 2rem 0rem 0rem 20vw !important;
+        // }
+        h5 {
+          margin: -0.5rem 0rem 0rem 0.5rem !important;
+          // text-align: left;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem 0rem !important;
+        padding: 0.5rem 0rem;
+      }
+    }
+  }
+  .slider {
+    margin: 0px 0px 10px 0px;
+
+    div {
+      width: 100%;
+    }
+  }
+  .prev {
+    &:hover {
+      i {
+        &::after {
+          content: "";
+        }
+      }
+    }
+  }
+  .next {
+    &:hover {
+      &::before {
+        content: "";
+      }
+    }
+  }
+  .skillTech {
+    font-size: 2vh;
+    font-weight: 600;
+    margin: 0rem;
+    padding: 0rem 2rem;
+  }
+  .skillBar {
+    font-size: 0.5rem !important;
+  }
+  .skillBarRow {
+    margin: 0px auto;
+  }
+  #skillBarContainer {
+    padding: 0rem 0.5rem 0rem 0rem;
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #skillBarContainer2 {
+    padding: 0rem 0.5rem 0rem 0rem;
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #skillBarContainer3 {
+    padding: 0rem 0.5rem 0rem 0rem;
+    position: absolute;
+    right: 0;
+    margin-top: 0.3rem !important;
+  }
+  #portfolio {
+    overflow-y: auto;
+  }
+  #portfolio-grid {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 40fr));
+    grid-auto-rows: auto auto;
+  }
+  div.portGridItem {
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 15rem;
+
+    &:hover {
+      border-radius: 10px;
+      box-shadow: 6px 6px 22px rgb(29, 29, 29); 
+    }
+  }
+  .titleOverlay {
+    font-size: $gridTitleSize-s;
+  }
+  .gridOverlay {
+    opacity: 1;
+    background-color: rgba(42, 42, 42, 0.815);
+
+    p {
+      padding: 0 0;
+      font-size: $gridTextSize-s;
+    }
+  }
+}
+@include media-mmd {
+  #logo {
+    padding: 0rem 2px 0.5rem 0rem;
+    font-size: 2.2rem !important;
+  }
+  .navdown:hover {
+    + .navLabelDown {
+      bottom: 2.5% !important;
+    }
+  }
+  .navUp:hover {
+
+    + .navLabelUp {
+      top: 2.8% !important;
+      z-index: 40;
+    }
+  }
+  .tablink {
+    font-size: 2rem !important;
+  }
+  #headingTitle {
+    padding: 100px 0px 0px 0rem;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  #subTitle {
+    span.l2 {
+      &:nth-child(22) {
+        padding: 0px 3px 0px 0px !important;
+      }
+    }
+  }
+  .tabTitleCont {
+    .l2 {
+      &:nth-child(2) {
+        padding-right: 1rem !important;
+      }
+      &:nth-child(6) {
+        padding-right: 0rem !important;
+      }
+    }
+  }
+  .tabTitleCont2 {
+    .l2 {
+      &:nth-child(6) {
+        padding-right: 1rem !important;
+      }
+      &:nth-child(2) {
+        padding-right: 0rem !important;
+      }
+    }
+  }
+  .headerContent {
+    width: 97vw;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .mob-next-line-letters {
+    display: block !important;
+  }
+  .socialItem {
+    font-size: 3.5vh !important;
+  }
+  .l1 {
+    font-family: $h1Font !important;
+    font-size: $h1size-tablet !important;
+  }
+  .l2 {
+    font-family: $h2Font !important;
+    font-size: $h2size-tablet-sh !important;
+  }
+  ul.canvas {
+    width: 100%;
+    height: 100%;
+    animation: glow1 8s ease-in-out infinite alternate !important;
+
+    li.comb {
+      width: 45%;
+      height: 35%;
+
+      &:hover {
+        background-color: rgb(248, 211, 0);
+        cursor: default;
+      }
+      &:nth-of-type(1n) {
+        top: 45vh;
+        left: 4vw;
+      }
+      &:nth-of-type(2n) {
+        top: 18vh;
+        left: 27vw;
+      }
+      &:nth-of-type(3n) {
+        top: 45vh;
+        left: 50vw;
+      }
+    }
+  }
+  .combTitle {
+    font-size: 5vw;
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 0;
+    font-weight: 900;
+  }
+  .combDes {
+    padding: 0em 0.5vh;
+    margin-top: 0.3rem;
+    font-size: 2vh;
+    font-weight: 600;
+  }
+  .slide1 {
+    padding: 0 !important;
+
+    .skillDescription {
+      margin: 2rem 0rem 0rem 5vw !important;
+      width: 40vw !important;
+      padding: 0rem 0rem 0rem 0rem;
+    }
+
+    &:nth-child(1) {
+      .skillTitle {
+        padding: 0rem 0rem 0rem 0rem;
+        // i {
+        //   margin: 1.3rem 0rem 1rem 20vw;
+        // }
+        h5 {
+          padding: 0rem 0rem 0rem 0rem;
+          // line-height: 5vh;
+          // width: 50vw;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem -0.15rem !important;
+        padding: 0.5rem 0rem;
+        width: 100vw;
+      }
+    }
+    &:nth-child(2) {
+      .skillTitle {
+        padding: 0rem 0rem 0rem 0rem;
+        // i {
+        //   margin: 2rem 0rem 0rem 20vw;
+        // }
+        h5 {
+          margin: 1rem 0rem 0rem 0rem !important;
+          padding: 0rem 0rem 0rem 0rem !important;
+          line-height: 5vh;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem -0.15rem !important;
+        padding: 0.5rem 0rem;
+        width: 100vw;
+      }
+    }
+    &:nth-child(3) {
+      .skillTitle {
+        // i {
+        //   margin: 2rem 0rem 0rem 20vw !important;
+        // }
+        h5 {
+          margin: 0rem 0rem 0rem 0.5rem !important;
+          padding: 1rem 0rem 0rem 0rem !important;
+          text-align: left;
+          line-height: 5vh;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem 0rem 0rem -0.15rem !important;
+        padding: 0.5rem 0rem;
+        width: 100vw;
+      }
+    }
+  }
+  .tabDes {
+    font-size: 2.5vh !important;
+    padding: 0rem 5vw !important;
+  }
+  .prev {
+    font-size: 4vw;
+  }
+  .next {
+    font-size: 4vw;
+  }
+  .skillTitle {
+    h5 {
+      font-size: 6vw;
+      line-height: 3.5vh;
+    }
+  }
+  .skillTech {
+    font-size: 2.5vh;
+  }
+  #skillBarContainer {
+    margin: 20px;
+  }
+  .titleOverlay {
+    font-size: $gridTitleSize-md;
+  }
+  .gridOverlay {
+    opacity: 1;
+    background-color: rgba(42, 42, 42, 0.815);
+
+    p {
+      padding: 0 0;
+      font-size: $gridTextSize-md;
+    }
+  }
+  #portfolio {
+    overflow-y: auto;
+  }
+  #portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 33rem));
+  }
+}
+@include media-lg {
+  #logo {
+    padding: 0rem 2rem;
+    font-size: 2.3rem !important;
+  }
+  #headingTitle {
+    display: flex;
+    justify-content: center;
+    padding: 15% 0px 0px 0rem;
+    width: 80%;
+
+    &:hover {
+      border-bottom: 5px solid rgb(251, 216, 16);
+    }
+  }
+  .tabTitleCont {
+    .l2 {
+      &:nth-child(2) {
+        padding-right: 1rem !important;
+      }
+      &:nth-child(6) {
+        padding-right: 0rem !important;
+      }
+    }
+  }
+  .tabDes {
+    font-size: 2.5vh !important;
+    padding: 0rem 11rem !important;
+    margin: 0px auto !important;
+  }
+  .tabTitleCont2 {
+    .l2 {
+      &:nth-child(2) {
+        padding-right: 0rem !important;
+      }
+      &:nth-child(6) {
+        padding-right: 1rem !important;
+      }
+    }
+  }
+  .navdown:hover {
+
+    + .navLabelDown {
+      bottom: 2.5% !important;
+    }
+  }
+  .navUp:hover {
+
+    + .navLabelUp {
+      top: 3rem !important;
+      z-index: 40;
+    }
+  }
+  .tablink {
+    font-size: 2.2rem  !important;
+  }
+  .headerContent {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  #subTitle {
+    margin: 20px auto;
+    animation: type2 2s steps(100, end);
+    text-shadow: 2px 2px 14px black;
+    cursor: pointer;
+    text-align: center;
+  }
+  #subTitle > span.l2:nth-child(12) {
+    padding: 0rem !important;
+  }
+  #subTitle > span.l2:nth-child(22) {
+    padding: 0rem !important;
+  }
+  .l1 {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: $h1Font !important;
+    color: rgb(209, 176, 28);
+    font-size: $h1size-lg !important;
+    text-shadow: 0px 0px 14px black;
+
+    &:hover {
+      margin: 0px !important;
+      padding: 0px;
+      color: rgb(251, 216, 16);
+    }
+  }
+  .l2 {
+    margin: 10px 0px 0px 0px !important;
+    padding: 0px;
+    font-family: $h2Font !important;
+    color: rgb(209, 176, 28);
+    font-size: $h2size-tablet-sh !important;
+    text-shadow: 0px 0px 14px black;
+
+    &:hover {
+      margin: 10px 0px 0px 0px !important;
+      padding: 0px;
+      color: rgb(251, 216, 16);
+    }
+  }
+  ul.canvas {
+
+    li.comb {
+      width: 45%;
+      height: 43%;
+
+      &:nth-of-type(1n) {
+        top:39vh;
+        left: 7vw;
+      }
+      &:nth-of-type(2n) {
+        top: 6vh;
+        left: 30vw;
+      }
+      &:nth-of-type(3n) {
+        top: 39vh;
+        left: 53vw;
+      }
+    }
+  }
+  .combDes {
+    padding: 1rem 0.5rem;
+    font-size: 2.5vh;
+  }
+  .combTitle {
+    font-size: 5.5vw;
+    margin: 5vh 0rem 0rem 0rem;
+  }
+  .skillTitle {
+
+    h5 {
+      font-size: 4vw;
+    }
+  }
+  .next, .prev {
+    padding: 0rem 0rem;
+  }
+  .slide1 {
+    padding: 0 !important;
+
+    .skillDescription {
+      margin: 3vw 0rem 0rem 10vw !important;
+      font-size: 1.5rem;
+      max-width: 35vw !important;  
+      line-height: 2.5rem;
+      display: inline-block;
+      padding: 0 !important;
+    }
+
+    &:nth-child(1) {
+      .skillTitle {
+        h5 {
+          padding: 0rem 0rem 0.5rem 0rem;
+          line-height: 5.5vh;
+          font-size: 4vw;
+        }
+      }
+      .skillTech {
+        margin: -2rem auto 0rem auto !important;
+        padding: 0.5rem 0rem;
+        width: 85vw;
+      }
+    }
+    &:nth-child(2) {
+      .skillTitle {
+        h5 {
+          margin: -1rem 0rem 0rem 0rem !important  ;
+          line-height: 5vh;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem auto 0rem auto !important;
+        padding: 0.5rem 0rem;
+        width: 85vw;
+      }
+    }
+    &:nth-child(3) {
+      .skillTitle {
+        h5 {
+          margin: -2rem 0rem 0rem 0.5rem !important;
+          line-height: 5.5vh;
+        }
+      }
+      .skillTech {
+        margin: -0.9rem auto 0rem auto !important;
+        padding: 0.5rem 0rem;
+        width: 85vw;
+      }
+    }
+  }
+  .socialItem {
+    font-size: 2.2rem !important;
+  }
+  #subTitle > span.l2:nth-child(11) {
+    padding: 0px 5px;
+  }
+  .mob-next-line-letters {
+    display: none !important;
+  }
+  #skillBarContainer {
+    padding: 0rem 0rem 0rem 5rem;
+    margin-right: 10vw;
+    width: 50%;
+    right: 2vw;
+  }
+  #skillBarContainer2 {
+    padding: 0rem 0rem 0rem 5rem;
+    margin-right: 10vw;
+    width: 50%;
+    right: 2vw;
+  }
+  #skillBarContainer3 {
+    padding: 0rem 0rem 0rem 5rem;
+    margin-right: 10vw;
+    width: 50%;
+    right: 2vw;
+  }
+  #portfolio {
+    overflow-y: auto;
+  }
+  #portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 33rem));
+  }
+  .gridOverlay {
+    opacity: 1;
+    background-color: rgba(42, 42, 42, 0.815);
+
+    p {
+      padding: 0rem;
+      font-size: $gridTextSize-lg;
+    }
+  }
+  .titleOverlay {
+    font-size: $gridTitleSize-lg;
+  }
+}
+@include media-xl {
+  ul.canvas {
+
+    li.comb {
+      width: 45vh;
+      height: 45vh;
+
+      &:nth-of-type(1n) {
+        top:41vh;
+        left: 32vh;
+      }
+      &:nth-of-type(2n) {
+        top: 6vh;
+        left: 55vh;
+      }
+      &:nth-of-type(3n) {
+        top: 41vh;
+        left: 78vh;
+      }
+    }
+  }
+  .navdown:hover {
+
+    + .navLabelDown {
+      bottom: 1% !important;
+    }
+  }
+  .navUp:hover {
+
+    + .navLabelUp {
+      top: 2.5% !important;
+      z-index: 40;
+    }
+  }
+  #portfolio {
+    overflow-y: auto;
+  }
+  #headingTitle {
+    width: 70% !important;
+  }
+  .tabDes {
+    font-size: 3vh !important;
+    padding: 0px 20vw !important;
+  }
+  .titleOverlay {
+    font-size: $gridTitleSize-xlg;
+  }
+  .combDes {
+    padding: 1rem 0.5rem;
+  }
+  .combTitle {
+    font-size: 5vh;
+  }
+}
+@include media-xxl {
+  ul.canvas {
+
+    li.comb {
+      width: 45vh;
+      height: 45vh;
+
+      &:nth-of-type(1n) {
+        top:41vh;
+        left: 38vh;
+      }
+      &:nth-of-type(2n) {
+        top: 6vh;
+        left: 61vh;
+      }
+      &:nth-of-type(3n) {
+        top: 41vh;
+        left: 84vh;
+      }
+    }
+  }
+  #headingTitle {
+    width: 50% !important;
+  }
+  .navdown:hover {
+
+    + .navLabelDown {
+      bottom: 50% !important;
+    }
+  }
+  .navUp:hover {
+
+    + .navLabelUp {
+      top: 2.5% !important;
+      z-index: 40;
+    }
+  }
+  .tabDes {
+    padding: 0px 24vw !important;
+  }
+  .combDes {
+    padding: 1rem 0.5rem;
+  }
+  .combTitle {
+    font-size: 5vh;
+  }
+  .gridOverlay {
+
+    p {
+      max-width: 550px;
+      margin: 0 auto !important;
+    }
+  }
+}

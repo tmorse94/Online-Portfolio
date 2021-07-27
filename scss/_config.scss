@@ -1,0 +1,81 @@
+$primaryColor: rgba(23, 23, 25, 90%);
+$secondaryColor: rgb(21, 21, 24);
+$accentColor: #d1b01c;
+$h1Color-dark: black;
+$h1Color-light: white;
+$h1Font: "Anton";
+$h1size: 145px;
+$h1size-lg: 15vh;
+$h1size-mobile: 80px;
+$h1size-tablet: 8rem;
+$h1size-tablet-sh: 20vh;
+$h2Color-dark: black;
+$h2Color-light: white;
+$h2Font: "Anton";
+$h2size: 50px;
+$h2size-lg: 4vh;
+$h2size-mobile: 1.95rem;
+$h2size-m-l-mobile: 2.9rem;
+$h2size-tablet: 4rem;
+$h2size-tablet-sh: 3rem;
+$h3Color: white;
+$h3Font: "Anton";
+$h3Size: 50px;
+$h4Color: white;
+$h5Color: white;
+$h6Color: black;
+$textColor: white;
+$textFont: "Abel";
+$textSize: 23px;
+$font1: "Architects Daughter";
+$gridTitleSize: 3vw;
+$gridTitleSize-s: 2.2rem;
+$gridTitleSize-xs: 2.2rem;
+$gridTitleSize-md: 2.5rem;
+$gridTitleSize-lg: 2.8rem;
+$gridTitleSize-xlg: 2.8rem;
+$gridTextSizexs: 1.3rem;
+$gridTextSize-s: 1.35rem;
+$gridTextSize-md: 1.4rem;
+$gridTextSize-lg: 1.4rem;
+$gridTextSize-xlg: 1.4rem;
+$gridTextFont: Mali, cursive;;
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin media-xsmd {    
+    @media screen and (max-width: 435px) {
+        @content; 
+    }
+}
+
+@mixin media-smd {    
+    @media screen and (min-width: 436px) and (max-width: 599px) {
+        @content;
+    }
+}
+@mixin media-mmd {    
+    @media screen and (min-width: 600px) and (max-width: 977px) {
+        @content;
+    }
+}
+
+@mixin media-lg {    
+    @media screen and (min-width: 978px) {
+        @content;
+    }
+}
+@mixin media-xl {    
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+@mixin media-xxl {    
+    @media screen and (min-width: 1449px) {
+        @content;
+    }
+}

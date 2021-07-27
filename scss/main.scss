@@ -1,0 +1,131 @@
+/* 
+///////////////////////////////////
+    @Imports
+*/
+@import './config';
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+/* 
+///////////////////////////////////
+    Navigation
+*/
+@import './navigation';
+
+/* 
+///////////////////////////////////
+    Hero
+*/
+@import './hero';
+
+/* 
+///////////////////////////////////
+    about
+*/
+@import './about';
+
+/* 
+///////////////////////////////////
+    skills
+*/
+@import './skills';
+
+/* 
+///////////////////////////////////
+    portfolio
+*/
+@import './portfolio';
+
+/*
+///////////////////////////////////
+    Responsive
+*/
+
+@import './responsive';
+
+/*
+///////////////////////////////////
+    main
+*/
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Lexend', sans-serif;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.tabcontent {
+    height: 100vh;
+    display: none;
+    background-color: $primaryColor;
+}
+h5 {
+    color: $h5Color;
+    text-shadow: 3px 3px 4px black;
+    text-align: center;
+}
+h6 {
+    color: $h6Color;
+    text-align: center;
+}
+.tabDes {
+    font-family: $textFont;
+    font-size: 3vh;
+    color: white;
+    padding: 0px 200px;
+    margin: 10px 40px 10px 40px;
+    cursor: default;
+    font-family: 'Lexend', sans-serif !important;
+}
+.mob-next-line-letters {
+    display: none;
+}
+.skillBarRow {
+
+  span {
+    font-weight: 600;
+  }
+}
+@keyframes glow1 {
+    0% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+    25% {
+      filter: drop-shadow(0 0 0.75rem yellow);
+    }
+    50% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+    75% {
+      filter: drop-shadow(0 0 0.75rem yellow);
+    }
+    100% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+}
+@-webkit-keyframes glow1 {
+    0% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+    25% {
+      filter: drop-shadow(0 0 0.75rem yellow);
+    }
+    50% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+    75% {
+      filter: drop-shadow(0 0 0.75rem yellow);
+    }
+    100% {
+      filter: drop-shadow(0 0 0.50rem yellow);
+    }
+}

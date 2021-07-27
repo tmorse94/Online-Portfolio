@@ -1,0 +1,158 @@
+.tabTitleCont2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    > span {
+        cursor: default;
+    }
+    > .l2:nth-child(2) {
+        padding-right: 1rem;
+    } 
+    > .l2:nth-child(6) {
+        padding-right: 1rem;
+    }
+}
+#portfolio-grid {
+    width: 80%;
+    margin: 20px auto 10px auto;
+    padding: 10px;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 40fr));
+    grid-auto-rows: auto auto;
+}
+div.portGridItem {
+    position: relative;
+    text-align: center;
+    // border: 1px groove white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);/*, 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/
+    cursor: default;
+    border-radius: 10px;
+    height: 15rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 5px;
+
+    &:hover {
+        border-radius: 10px;
+        // border: 2px groove white;
+        box-shadow: 0px 0px 15px;
+    }
+}
+.gridOverlay {
+    cursor: default;
+    width: 100%;
+    height: 85% !important;
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+    &:hover {
+        width: 100%;
+        // height: fit-content;
+        background-color: rgba(42, 42, 42, 0.815);
+        opacity: 1;
+        transition: 0.5s;
+        cursor: default !important;
+    }
+
+    h5 {
+        padding: 20px 10px;
+    }
+
+    p {
+        padding: 1rem 0rem 0rem 0rem;
+        font-family: $gridTextFont;
+    }
+
+
+    
+    // li.disabled {
+    //     cursor: not-allowed;
+    // }
+
+    // li.disabled a {
+    //     pointer-events: none;
+    // }
+
+    // .portButtonDisable {
+    //     // pointer-events:;
+
+    //     text-decoration: none;
+    //     margin-top: 2vh;
+    //     // margin-bottom: 2rem !important;
+    //     width: 50%;
+    //     position: absolute;
+    //     bottom: 0rem;
+    //     right: 0;
+    //     left: 25%;
+    //     padding: 0.5rem;
+    //     background-color: $accentColor;
+    //     border: none;
+    //     border-radius: 5px;
+
+    // }
+}
+button[disabled] {
+    cursor: not-allowed;
+    padding: 0.2rem !important;
+    // margin-top: 2rem !important;
+    background-color: $accentColor !important;
+    position: absolute;
+    bottom: 0rem;
+    left: 25%;
+    right: 25%;
+}
+.portButton {
+    font-weight: 100;
+    cursor: pointer;
+    text-decoration: none;
+    // margin-top: 2rem !important;
+    // margin-bottom: 2rem !important;
+    width: 50%;
+    position: absolute;
+    bottom: 0rem;
+    left: 25%;
+    right: 25%;
+    padding: 0.2rem !important;
+    background-color: $accentColor !important;
+    border: none;
+    border-radius: 5px;
+    color: black;
+
+    &:hover {
+        font-weight: 900;
+    }
+
+}
+.portImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.titleOverlay {
+    width: 100%;
+    // height: 25%;
+    font-size: $gridTitleSize;
+    font-weight: 100;
+    font-family: $font1;
+    color: $accentColor;
+
+    // background-color: rgba(42, 42, 42, 0.815);
+    // transition: 0.5s ease;
+    // opacity: 0;
+    position: absolute;
+    top: -10% !important;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

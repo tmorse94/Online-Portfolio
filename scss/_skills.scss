@@ -1,0 +1,314 @@
+.tabTitleCont {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    > span {
+        cursor: default;
+    }
+    > .l2:nth-child(2) {
+        padding-right: 1rem;
+    } 
+    > .l2:nth-child(6) {
+        padding-right: 1rem;
+    }
+}
+.skillBar {
+    width: 100%;
+    margin: 0px auto 0px auto;
+    border-radius: 8px;
+    background-color: #ffffff0d;
+    box-shadow: 0rem 0rem 1rem gold;
+}
+.skillBarRow {
+  margin: 5px auto;
+
+  span {
+    display: flex;
+    font-weight: 400;
+  }
+}
+.skills {
+  height: 0.4rem;
+  border-radius: 8px;
+  text-align: right;
+  color: black;
+}
+.html {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate1 1s linear forwards;
+}
+.css {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate2 1s linear forwards;
+}
+.js {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate3 1s linear forwards;
+}
+.php {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate5 1s linear forwards;
+}
+.mysql {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate6 1s linear forwards;
+}
+.json {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate7 1s linear forwards;
+}
+.ajax {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate4 1s linear forwards;
+} 
+.adobe {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate8 1s linear forwards;
+}
+.gimp {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate9 1s linear forwards;
+}
+.pp {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate10 1s linear forwards;
+}
+.fig {
+    font-weight: 900;
+    font-size: 1.3vh;
+    background-color: $accentColor;
+    animation: progressAnimate11 1s linear forwards;
+}
+.slide1 {
+  display: none;
+}
+.sliderCont {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 10px 0px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0px;
+  margin: 10px 5px 10px 2px;
+  height: 60%;
+
+  div {
+    scroll-snap-align: start;
+    width: 100%;
+  }
+}
+.next {
+  right: 0vw;
+  border-radius: 10px 80px 80px 10px;
+
+  color: black !important;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  height: 200px;
+  padding: 50px 0px 0px 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: 0.6s ease;
+  user-select: none;
+  text-shadow: 2px 2px 3px black;
+
+  &:hover {
+    color: white !important;
+
+    &::before {
+        content: "Next";
+        color: rgb(251, 216, 16);
+        font-weight: 100 !important;
+        font-size: 1.3rem;
+        transition: 0.6s ease;
+        text-shadow: none;
+        font-family: "Architects Daughter" !important;
+        padding: 0.25rem;
+    }
+  }
+}
+.prev {
+  left: 0;
+  border-radius: 80px 10px 10px 80px;
+
+  color: black !important;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  height: 200px;
+  padding: 50px 0px 0px 10px;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: 0.6s ease;
+  user-select: none;
+  text-shadow: 2px 2px 3px black;
+  &:hover {
+    color: white !important;
+
+    > i::after {
+        content: "Prev";
+        color: rgb(251, 216, 16);
+        font-weight:100 !important;
+        font-size: 1.3rem;
+        transition: 0.6s ease;
+        text-shadow: none;
+        font-family: "Architects Daughter" !important;
+        padding: 0.25rem;
+    }
+  }
+}
+.fa-2x {
+  padding: 20px 0px 0px 0px !important;
+  display: flex !important;
+  justify-content: center !important;
+  color: white !important;
+  text-shadow: 3px 3px 6px rgb(37, 36, 36) !important;
+}
+#skillBarContainer {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+}
+#skillBarContainer2 {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+}
+#skillBarContainer3 {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+  position: static;
+}
+.skillTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px 0px 0px 0px;
+    font-size: 46px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: default;
+    > h5 {
+        font-size: 35px;
+        padding: 20px 0px 0px 10px;
+        font-family: $font1;
+    }
+    > i {
+        font-size: 10vh;
+        text-align: right;
+        color: rgb(209, 176, 28) !important;
+        &:hover {
+            text-align: right;
+            color:rgb(251, 216, 16) !important;
+        }
+    }
+}
+.skillTech {
+  text-align: center;
+  color: black !important;
+  font-size: 19px;
+  background-color: rgb(209, 176, 28);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px;
+  cursor: default;
+  font-weight: 600;
+
+  &:hover {
+    color: black !important;
+    background-color:rgb(251, 216, 16);
+    box-shadow: 2px 2px 14px black;
+    /* font-weight: 600; */
+  }
+}
+.skillDescription {
+  display: inline-block;
+  width: 35vw;
+  padding: 0px 55px 0px 55px;
+  font-size: 20px;
+  font-weight: 500;
+  color: $textColor;
+  text-align: left;
+  /* font-size: large; */
+  letter-spacing: 0.5px;
+  cursor: default;
+  font-family: 'Lexend', sans-serif !important;
+}
+@keyframes progressAnimate1 {
+  from { width: 0%; }
+  to { width: 75%; }
+}
+@keyframes progressAnimate2 {
+  from { width: 0%; }
+  to { width: 60%; }
+}
+@keyframes progressAnimate3 {
+  from { width: 0%; }
+  to { width: 40%; }
+}
+@keyframes progressAnimate4 {
+  from { width: 0%; }
+  to { width: 25%; }
+}
+@keyframes progressAnimate5 {
+  from { width: 0%; }
+  to { width: 40%; }
+}
+@keyframes progressAnimate6 {
+  from { width: 0%; }
+  to { width: 50%; }
+}
+@keyframes progressAnimate7 {
+  from { width: 0%; }
+  to { width: 30%; }
+}
+@keyframes progressAnimate8 {
+  from { width: 0%; }
+  to { width: 50%; }
+}
+@keyframes progressAnimate9 {
+  from { width: 0%; }
+  to { width: 30%; }
+}
+@keyframes progressAnimate10 {
+  from { width: 0%; }
+  to { width: 70%; }
+}
+@keyframes progressAnimate11 {
+  from { width: 0%; }
+  to { width: 25%; }
+}
